@@ -1,0 +1,29 @@
+{
+  "baseline_logreg_roc_auc": 0.845723216822961,
+  "best_params": {
+    "colsample_bytree": 0.9,
+    "learning_rate": 0.1,
+    "max_depth": 4,
+    "n_estimators": 300,
+    "subsample": 0.9
+  },
+  "accuracy": 0.7274662881476224,
+  "precision": 0.4921135646687697,
+  "recall": 0.8342245989304813,
+  "f1": 0.6190476190476191,
+  "roc_auc": 0.8342827249476866,
+  "pr_auc": 0.6382426314313254,
+  "confusion_matrix": [
+    [
+      713,
+      322
+    ],
+    [
+      62,
+      312
+    ]
+  ],
+  "optimal_threshold_youden_j": 0.37544137239456177,
+  "n_train": 5634,
+  "n_test": 1409
+}
